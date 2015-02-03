@@ -1,6 +1,8 @@
 package com.test.myMod.block;
 
 
+import com.test.myMod.creativetab.CreativeTabmyMod;
+
 public class BlockBone extends BlockmyMod
 {
     public BlockBone()
@@ -8,5 +10,6 @@ public class BlockBone extends BlockmyMod
         super();
         this.setBlockName("boneBlock");
         this.setBlockTextureName("boneBlock");
+
     }
 }

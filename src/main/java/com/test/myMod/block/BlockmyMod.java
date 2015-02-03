@@ -1,6 +1,7 @@
 package com.test.myMod.block;
 
 
+import com.test.myMod.creativetab.CreativeTabmyMod;
 import com.test.myMod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class BlockmyMod extends Block
     public BlockmyMod(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabmyMod.myMod_TAB);
     }
 
     public BlockmyMod()
