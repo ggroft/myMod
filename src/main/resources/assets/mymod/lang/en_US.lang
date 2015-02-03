@@ -1,2 +1,3 @@
 item.mymod:BoneSword.name=Bone Sword
 tile.mymod:boneBlock.name=Bone Block
+itemGroup.mymod= My Test Mod

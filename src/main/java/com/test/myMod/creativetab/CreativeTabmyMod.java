@@ -8,7 +8,7 @@ import net.minecraft.item.Item;
 
 public class CreativeTabmyMod
 {
-    public static final CreativeTabs myMod_TAB = new CreativeTabs(Reference.MOD_ID) {
+    public static final CreativeTabs myMod_TAB = new CreativeTabs(Reference.MOD_ID.toLowerCase()) {
 
         @Override
         public Item getTabIconItem()
@@ -16,10 +16,6 @@ public class CreativeTabmyMod
             return ModItems.bonesword;
         }
 
-        @Override
-        public String getTranslatedTabLabel()
-        {
-            return "myMod";
-        }
+
     };
 }
