@@ -1,6 +1,7 @@
 package com.test.myMod;
 
 import com.test.myMod.handler.ConfigurationHandler;
+import com.test.myMod.init.ModItems;
 import com.test.myMod.proxy.IProxy;
 import com.test.myMod.reference.Reference;
 import com.test.myMod.utility.LogHelper;
@@ -27,6 +28,8 @@ public class myMod
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         LogHelper.info("Preinitialization succesfully complete!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
