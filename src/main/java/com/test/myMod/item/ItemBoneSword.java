@@ -7,6 +7,7 @@ public class ItemBoneSword extends ItemmyMod
     {
         super();
         this.setUnlocalizedName("BoneSword");
+        this.maxStackSize=1;
     }
 
 

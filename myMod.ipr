@@ -169,6 +169,13 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Admin">
+      <words>
+        <w>mymod</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/myMod.iml" filepath="$PROJECT_DIR$/myMod.iml" />
