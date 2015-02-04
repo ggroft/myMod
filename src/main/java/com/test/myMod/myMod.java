@@ -30,7 +30,7 @@ public class myMod
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        LogHelper.info("Preinitialization succesfully complete!");
+        LogHelper.info("Pre-initialization complete!");
 
         ModItems.init();
         ModeBlocks.init();
@@ -40,13 +40,13 @@ public class myMod
     public void init(FMLInitializationEvent event)
     {
         Recipes.init();
-        LogHelper.info("Initialization succesfully complete!");
+        LogHelper.info("Initialization complete!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-        LogHelper.info("Postinitialization succesfully complete!");
+        LogHelper.info("Post-initialization complete!");
 
      //   for (String oreName : OreDictionary.getOreNames())
      //   {

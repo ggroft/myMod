@@ -8,4 +8,6 @@ public class Reference
     public static final String SERVER_PROXY_CLASS = "com.test.myMod.proxy.ServerProxy";
     public static final String CLIENT_PROXY_CLASS = "com.test.myMod.proxy.ClientProxy";
     public static final String GUI_FACTORY_CLASS = "com.test.myMod.client.gui.GuiFactory";
+    public static final String CATEGORY_FORGECRAFT = "ForgeCraft";
+    public static final String CONFIG_MAIN_GUI_NAME = "Required stuffz configurations";
 }

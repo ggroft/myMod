@@ -26,7 +26,7 @@ public class Recipes
                 "bbb", "bbb", "bbb",
                 'b', new ItemStack(Items.dye,1,15));
 
-        String recipe =
+        String boneb_recipe =
                 "<recipeGroup name=\"BlockBone\">" +
                         "<recipe name=\"BlockBone\" energyCost=\"100\">" +
                         "<input>" +
@@ -37,7 +37,7 @@ public class Recipes
                         "</output>" +
                         "</recipe>" +
                         "</recipeGroup>";
-        FMLInterModComms.sendMessage("EnderIO", "recipe:sagmill", recipe);
+        FMLInterModComms.sendMessage("EnderIO", "recipe:sagmill", boneb_recipe);
 
 
     }

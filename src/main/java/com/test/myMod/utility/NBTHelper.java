@@ -3,6 +3,8 @@ package com.test.myMod.utility;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
+
+
 public class NBTHelper
 {
     public static boolean hasTag(ItemStack itemStack, String keyName)
