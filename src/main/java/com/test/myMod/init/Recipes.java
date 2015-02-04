@@ -1,6 +1,9 @@
 package com.test.myMod.init;
 
 
+import com.test.myMod.reference.Names;
+import com.test.myMod.reference.Reference;
+import cpw.mods.fml.common.event.FMLInterModComms;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -22,5 +25,20 @@ public class Recipes
         GameRegistry.addRecipe(new ItemStack(ModeBlocks.BlockBone),
                 "bbb", "bbb", "bbb",
                 'b', new ItemStack(Items.dye,1,15));
+
+        String recipe =
+                "<recipeGroup name=\"BlockBone\">" +
+                        "<recipe name=\"BlockBone\" energyCost=\"100\">" +
+                        "<input>" +
+                        "<itemStack modID=\"" + Reference.MOD_ID + "\" itemName=\""+ Names.Blocks.BONE_BLOCK +"\"/>" +
+                        "</input>" +
+                        "<output>" +
+                        "<itemStack modID=\"minecraft\" itemName=\"dye\" itemMeta=\"15\" number=\"6\" />" +
+                        "</output>" +
+                        "</recipe>" +
+                        "</recipeGroup>";
+        FMLInterModComms.sendMessage("EnderIO", "recipe:sagmill", recipe);
+
+
     }
 }

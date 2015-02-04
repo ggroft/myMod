@@ -8,7 +8,7 @@ public class Names {
     }
     public static final class Blocks
     {
-        public static final String BONE_BLOCK = "blockBone";
+        public static final String BONE_BLOCK = "BlockBone";
     }
 
 }
