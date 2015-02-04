@@ -13,7 +13,6 @@ import java.util.List;
 
 
 
-
 public class ModGuiConfig extends GuiConfig
 {
     static List<IConfigElement> list = null;
