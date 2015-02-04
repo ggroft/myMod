@@ -1,54 +1,65 @@
 package com.test.myMod.block;
 
+//http://bedrockminer.jimdo.com/modding-tutorials/basic-modding/language-file/
+
+import java.util.Random;
 
 import com.test.myMod.creativetab.CreativeTabmyMod;
-import com.test.myMod.init.ModItems;
+import com.test.myMod.reference.Names;
+import com.test.myMod.reference.Reference;
 import com.test.myMod.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-import java.util.Random;
+public class BlockBone extends Block {
+    private Item drop;
+    private int meta;
+    private int least_quantity;
+    private int most_quantity;
 
-public class BlockBone extends Block
-{
-    public BlockBone(Material material)
-    {
-        super(material);
+
+    public BlockBone(String unlocalizedName, Material mat, Item drop, int meta, int least_quantity, int most_quantity) {
+        super(mat);
+        this.drop = drop;
+        this.meta = meta;
+        this.least_quantity = least_quantity;
+        this.most_quantity = most_quantity;
+        this.blockHardness = 20;
+        this.setBlockName(Names.Blocks.BONE_BLOCK);
+       // this.setBlockTextureName(Reference.MOD_ID + ":" + unlocalizedName);
         this.setCreativeTab(CreativeTabmyMod.myMod_TAB);
-        this.setBlockName("boneBlock");
-        this.setBlockTextureName("boneBlock");
-        this.setHarvestLevel("pickaxe",0);
-
     }
-
-    public BlockBone()
-    {
-        this(Material.rock);
+    public BlockBone(String unlocalizedName, Material mat, Item drop, int least_quantity, int most_quantity) {
+        this(unlocalizedName, mat, drop, 0, least_quantity, most_quantity);
+    }
+    public BlockBone(String unlocalizedName, Material mat, Item drop) {
+        this(unlocalizedName, mat, drop, 1, 1);
     }
 
     @Override
-    public Item getItemDropped(int par1, Random random, int par2)
-    {
-       // return new ItemStack(Item.getItemById(351), 1, 4) ;
-
-        return Item.getItemById(351);
+    public Item getItemDropped(int meta, Random random, int fortune) {
+        return this.drop;
     }
     @Override
-    public int quantityDropped(Random random)
-    {
-        return (random.nextInt(4) + 1);
+    public int damageDropped(int meta) {
+        return meta;
+    }
+    @Override
+    public int quantityDropped(int meta, int fortune, Random random) {
+        if (this.least_quantity >= this.most_quantity)
+            return this.least_quantity;
+        return this.least_quantity + random.nextInt(this.most_quantity - this.least_quantity + fortune + 1);
     }
 
     @Override
     public String getUnlocalizedName()
     {
-        return String.format("tile.%s%s", Textures.RESOURCE_PREFIX, getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
     @Override
     @SideOnly(Side.CLIENT)
@@ -60,4 +71,8 @@ public class BlockBone extends Block
     {
         return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
+
+
+
+
 }

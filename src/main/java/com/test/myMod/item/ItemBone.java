@@ -6,20 +6,21 @@ import com.test.myMod.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
 
 
-public class ItemBoneSword extends ItemSword
+
+public class ItemBone extends Item
 {
-    public ItemBoneSword(ToolMaterial material)
+    public ItemBone()
     {
-        super(material);
+        super();
         this.setCreativeTab(CreativeTabmyMod.myMod_TAB);
-        this.setUnlocalizedName(Names.Items.BONE_SWORD);
-        this.maxStackSize=1;
-        this.setMaxDamage(150);
-    }
+        this.setUnlocalizedName(Names.Items.BONE_FRAGMENT);
+        this.maxStackSize=64;
+
+}
 
     @Override
     public String getUnlocalizedName()

@@ -1,11 +1,13 @@
 package com.test.myMod.reference;
 
+
         import net.minecraft.item.Item;
         import net.minecraft.item.ItemArmor;
         import net.minecraftforge.common.util.EnumHelper;
 
 public class Material
 {
+
     public static final class Tools
     {
         public static final Item.ToolMaterial BONE_MATTER = EnumHelper.addToolMaterial(Names.Materials.BONE_MATTER, 3, 0, 14f, 3f, 0);
@@ -16,4 +18,4 @@ public class Material
     }
 
 
-}
+        }

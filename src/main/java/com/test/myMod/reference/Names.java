@@ -7,6 +7,7 @@ public class Names {
     public static final class Items
     {
         public static final String BONE_SWORD = "BoneSword";
+        public static final String BONE_FRAGMENT = "BoneFragment";
     }
 
     public static final class Blocks
