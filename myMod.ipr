@@ -190,6 +190,15 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
+  <component name="libraryTable">
+    <library name="erogenousbeef">
+      <CLASSES>
+        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/BigReactors-0.4.0A.jar!/erogenousbeef" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
