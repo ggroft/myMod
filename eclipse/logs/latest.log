@@ -1,11 +1,11 @@
-[13:59:25] [main/INFO]: Setting user: Player994
-[13:59:33] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:00:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[14:00:22] [Sound Library Loader/INFO]: Sound engine started
-[14:00:28] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[14:00:29] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[14:00:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[14:00:37] [Client thread/ERROR]: Using missing texture, unable to load mymod:textures/blocks/blockInstantStructure.png.png
+[16:10:24] [main/INFO]: Setting user: Player958
+[16:10:29] [Client thread/INFO]: LWJGL Version: 2.9.1
+[16:10:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
+[16:11:00] [Sound Library Loader/INFO]: Sound engine started
+[16:11:14] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[16:11:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[16:11:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
+[16:11:18] [Client thread/ERROR]: Using missing texture, unable to load mymod:textures/blocks/blockInstantStructure.png.png
 java.io.FileNotFoundException: mymod:textures/blocks/blockInstantStructure.png.png
 	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
@@ -33,33 +33,33 @@ java.io.FileNotFoundException: mymod:textures/blocks/blockInstantStructure.png.p
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_31]
 	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_31]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[14:00:38] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[14:00:38] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[14:00:39] [Sound Library Loader/INFO]: Sound engine started
-[14:01:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:01:21] [Server thread/INFO]: Generating keypair
-[14:01:22] [Server thread/INFO]: Preparing start region for level 0
-[14:01:23] [Server thread/INFO]: Preparing spawn area: 0%
-[14:01:24] [Server thread/INFO]: Preparing spawn area: 50%
-[14:01:25] [Server thread/INFO]: Changing view distance to 12, from 10
-[14:01:27] [Server thread/INFO]: Player994[local:E:0c3a6231] logged in with entity id 142 at (263.2192401229782, 4.0, 137.63699030497344)
-[14:01:27] [Server thread/INFO]: Player994 joined the game
-[14:01:45] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
-[14:02:21] [Server thread/INFO]: Player994 has just earned the achievement [Taking Inventory]
-[14:02:21] [Client thread/INFO]: [CHAT] Player994 has just earned the achievement [Taking Inventory]
-[14:02:33] [Server thread/INFO]: [Player994: Given [tile.thisCanBeAnything.name] * 64 to Player994]
-[14:02:33] [Client thread/INFO]: [CHAT] Given [tile.thisCanBeAnything.name] * 64 to Player994
-[14:02:53] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[14:03:31] [Server thread/INFO]: [Player994: Set the time to 0]
-[14:03:31] [Client thread/INFO]: [CHAT] Set the time to 0
-[14:04:08] [Server thread/INFO]: Saving and pausing game...
-[14:04:08] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:04:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:04:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:04:09] [Server thread/INFO]: Stopping server
-[14:04:09] [Server thread/INFO]: Saving players
-[14:04:09] [Server thread/INFO]: Saving worlds
-[14:04:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[14:04:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[14:04:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[14:04:12] [Client thread/INFO]: Stopping!
+[16:11:19] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[16:11:19] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[16:11:20] [Sound Library Loader/INFO]: Sound engine started
+[16:11:40] [Client thread/INFO]: Deleting level New World
+[16:11:40] [Client thread/INFO]: Attempt 1...
+[16:12:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[16:12:24] [Server thread/INFO]: Generating keypair
+[16:12:24] [Server thread/INFO]: Converting map!
+[16:12:24] [Server thread/INFO]: Scanning folders...
+[16:12:24] [Server thread/INFO]: Total conversion count is 0
+[16:12:27] [Server thread/INFO]: Preparing start region for level 0
+[16:12:28] [Server thread/INFO]: Changing view distance to 12, from 10
+[16:12:29] [Server thread/INFO]: Player958[local:E:5ad740d2] logged in with entity id 1 at (-139.5, 4.0, 504.5)
+[16:12:29] [Server thread/INFO]: Player958 joined the game
+[16:12:44] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
+[16:13:38] [Server thread/INFO]: Player958 has just earned the achievement [Taking Inventory]
+[16:13:39] [Client thread/INFO]: [CHAT] Player958 has just earned the achievement [Taking Inventory]
+[16:17:03] [Server thread/INFO]: [Player958: Set own game mode to Creative Mode]
+[16:17:03] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[16:18:24] [Server thread/INFO]: Saving and pausing game...
+[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:18:25] [Server thread/INFO]: Stopping server
+[16:18:25] [Server thread/INFO]: Saving players
+[16:18:25] [Server thread/INFO]: Saving worlds
+[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[16:18:27] [Client thread/INFO]: Stopping!
