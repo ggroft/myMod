@@ -21,7 +21,9 @@ public class Structures
     genEpulet = new Epulet(Material.rock).setCreativeTab(CreativeTabmyMod.myMod_TAB).setBlockName("thisCanBeAnything").setBlockTextureName(Reference.MOD_ID + ":" + "blockInstantStructure.png");
 
     GameRegistry.registerBlock(genEpulet, "Epuletecske_kene_legyen");
-   // GameRegistry.registerWorldGenerator(eventmanager);
+    GameRegistry.registerWorldGenerator(eventmanager,0);
 }
 
 }
+//https://www.youtube.com/watch?v=9QRPrDp74X0
+//http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding-1-7/#sthash.dpAWiULX.dpbs
