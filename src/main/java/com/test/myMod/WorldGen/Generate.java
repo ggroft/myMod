@@ -24,11 +24,6 @@ public class Generate implements IWorldGenerator
 
     private void generateSurface(World world, Random random, int blockX, int blockZ)
     {
-        int Xcoord = blockX + random.nextInt(16);
-        int Ycoord = random.nextInt(60);
-        int Zcoord = blockZ + random.nextInt(16);
-
-        (new WorldGenMinable(ModeBlocks.BlockBone, 10)).generate(world, random, Xcoord, Ycoord, Zcoord);
 
         int Xcoord1 = blockX + random.nextInt(16);
         int Ycoord1 = random.nextInt(80);
@@ -41,4 +36,3 @@ public class Generate implements IWorldGenerator
 
 }
 
-//- See more at: http://www.wuppy29.com/minecraft/modding-tutorials/modding-adding-the-structure-to-the-world/#sthash.qpHVHZeY.dpuf

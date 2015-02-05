@@ -1,65 +1,136 @@
-[16:10:24] [main/INFO]: Setting user: Player958
-[16:10:29] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:10:54] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[16:11:00] [Sound Library Loader/INFO]: Sound engine started
-[16:11:14] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:11:14] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:11:17] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[16:11:18] [Client thread/ERROR]: Using missing texture, unable to load mymod:textures/blocks/blockInstantStructure.png.png
-java.io.FileNotFoundException: mymod:textures/blocks/blockInstantStructure.png.png
-	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:65) ~[FallbackResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:67) ~[SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTextureAtlas(TextureMap.java:126) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureMap.loadTexture(TextureMap.java:91) [TextureMap.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:89) [TextureManager.class:?]
-	at net.minecraft.client.renderer.texture.TextureManager.onResourceManagerReload(TextureManager.java:170) [TextureManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.notifyReloadListeners(SimpleReloadableResourceManager.java:134) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.resources.SimpleReloadableResourceManager.reloadResources(SimpleReloadableResourceManager.java:118) [SimpleReloadableResourceManager.class:?]
-	at net.minecraft.client.Minecraft.refreshResources(Minecraft.java:643) [Minecraft.class:?]
-	at cpw.mods.fml.client.FMLClientHandler.finishMinecraftLoading(FMLClientHandler.java:303) [FMLClientHandler.class:?]
-	at net.minecraft.client.Minecraft.startGame(Minecraft.java:586) [Minecraft.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:931) [Minecraft.class:?]
-	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_31]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_31]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_31]
-	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_31]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.11.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.11.jar:?]
-	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:78) [start/:?]
-	at GradleStart.main(GradleStart.java:45) [start/:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_31]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_31]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_31]
-	at java.lang.reflect.Method.invoke(Method.java:483) ~[?:1.8.0_31]
-	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[16:11:19] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:11:19] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:11:20] [Sound Library Loader/INFO]: Sound engine started
-[16:11:40] [Client thread/INFO]: Deleting level New World
-[16:11:40] [Client thread/INFO]: Attempt 1...
-[16:12:24] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:12:24] [Server thread/INFO]: Generating keypair
-[16:12:24] [Server thread/INFO]: Converting map!
-[16:12:24] [Server thread/INFO]: Scanning folders...
-[16:12:24] [Server thread/INFO]: Total conversion count is 0
-[16:12:27] [Server thread/INFO]: Preparing start region for level 0
-[16:12:28] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:12:29] [Server thread/INFO]: Player958[local:E:5ad740d2] logged in with entity id 1 at (-139.5, 4.0, 504.5)
-[16:12:29] [Server thread/INFO]: Player958 joined the game
-[16:12:44] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
-[16:13:38] [Server thread/INFO]: Player958 has just earned the achievement [Taking Inventory]
-[16:13:39] [Client thread/INFO]: [CHAT] Player958 has just earned the achievement [Taking Inventory]
-[16:17:03] [Server thread/INFO]: [Player958: Set own game mode to Creative Mode]
-[16:17:03] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[16:18:24] [Server thread/INFO]: Saving and pausing game...
-[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:18:24] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:18:25] [Server thread/INFO]: Stopping server
-[16:18:25] [Server thread/INFO]: Saving players
-[16:18:25] [Server thread/INFO]: Saving worlds
-[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:18:25] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:18:27] [Client thread/INFO]: Stopping!
+[21:13:34] [main/INFO]: Setting user: Player995
+[21:13:41] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:14:03] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod
+[21:14:08] [Sound Library Loader/INFO]: Sound engine started
+[21:14:29] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:14:29] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:14:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod
+[21:14:31] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[21:14:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[21:14:34] [Sound Library Loader/INFO]: Sound engine started
+[21:14:45] [Client thread/INFO]: Deleting level New World
+[21:14:45] [Client thread/INFO]: Attempt 1...
+[21:15:03] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:15:03] [Server thread/INFO]: Generating keypair
+[21:15:03] [Server thread/INFO]: Converting map!
+[21:15:03] [Server thread/INFO]: Scanning folders...
+[21:15:03] [Server thread/INFO]: Total conversion count is 0
+[21:15:05] [Server thread/INFO]: Preparing start region for level 0
+[21:15:06] [Server thread/INFO]: Preparing spawn area: 3%
+[21:15:07] [Server thread/INFO]: Preparing spawn area: 6%
+[21:15:08] [Server thread/INFO]: Preparing spawn area: 9%
+[21:15:09] [Server thread/INFO]: Preparing spawn area: 13%
+[21:15:10] [Server thread/INFO]: Preparing spawn area: 18%
+[21:15:11] [Server thread/INFO]: Preparing spawn area: 22%
+[21:15:12] [Server thread/INFO]: Preparing spawn area: 27%
+[21:15:13] [Server thread/INFO]: Preparing spawn area: 33%
+[21:15:14] [Server thread/INFO]: Preparing spawn area: 39%
+[21:15:15] [Server thread/INFO]: Preparing spawn area: 45%
+[21:15:16] [Server thread/INFO]: Preparing spawn area: 51%
+[21:15:17] [Server thread/INFO]: Preparing spawn area: 57%
+[21:15:18] [Server thread/INFO]: Preparing spawn area: 62%
+[21:15:19] [Server thread/INFO]: Preparing spawn area: 68%
+[21:15:20] [Server thread/INFO]: Preparing spawn area: 75%
+[21:15:21] [Server thread/INFO]: Preparing spawn area: 83%
+[21:15:22] [Server thread/INFO]: Preparing spawn area: 89%
+[21:15:23] [Server thread/INFO]: Preparing spawn area: 95%
+[21:15:25] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:15:26] [Server thread/INFO]: Player995[local:E:cbfe9782] logged in with entity id 195 at (-15.5, 65.0, 203.5)
+[21:15:26] [Server thread/INFO]: Player995 joined the game
+[21:15:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9999ms behind, skipping 199 tick(s)
+[21:15:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 1065 ms
+[21:15:45] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
+[21:15:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 170 ms
+[21:15:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 538 ms
+[21:15:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 202 ms
+[21:16:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 347 ms
+[21:16:02] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 20142ms behind, skipping 402 tick(s)
+[21:16:08] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5308ms behind, skipping 106 tick(s)
+[21:16:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 485 ms
+[21:16:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 282 ms
+[21:16:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 268 ms
+[21:16:20] [Server thread/INFO]: Player995 has just earned the achievement [Taking Inventory]
+[21:16:20] [Client thread/INFO]: [CHAT] Player995 has just earned the achievement [Taking Inventory]
+[21:16:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 341 ms
+[21:16:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 279 ms
+[21:16:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 286 ms
+[21:16:53] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 27892ms behind, skipping 557 tick(s)
+[21:16:59] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5288ms behind, skipping 105 tick(s)
+[21:17:22] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11603ms behind, skipping 232 tick(s)
+[21:17:30] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2089ms behind, skipping 41 tick(s)
+[21:17:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 186 ms
+[21:17:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 207 ms
+[21:17:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 192 ms
+[21:17:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 313 ms
+[21:17:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 199 ms
+[21:17:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 234 ms
+[21:17:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 9424ms behind, skipping 188 tick(s)
+[21:18:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5848ms behind, skipping 116 tick(s)
+[21:18:35] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2857ms behind, skipping 57 tick(s)
+[21:18:35] [Client thread/INFO]: Warning: Clientside chunk ticking took 333 ms
+[21:18:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 321 ms
+[21:18:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 246 ms
+[21:18:36] [Client thread/INFO]: Warning: Clientside chunk ticking took 258 ms
+[21:18:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 265 ms
+[21:18:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 238 ms
+[21:18:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 459 ms
+[21:18:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 347 ms
+[21:18:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 350 ms
+[21:18:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 271 ms
+[21:18:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 271 ms
+[21:18:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 240 ms
+[21:18:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 222 ms
+[21:18:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 229 ms
+[21:18:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 248 ms
+[21:18:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 200 ms
+[21:18:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 205 ms
+[21:18:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 203 ms
+[21:18:49] [Client thread/INFO]: Warning: Clientside chunk ticking took 215 ms
+[21:18:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 107 ms
+[21:18:57] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 8370ms behind, skipping 167 tick(s)
+[21:19:07] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2670ms behind, skipping 53 tick(s)
+[21:19:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
+[21:19:36] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[21:19:38] [Server thread/INFO]: [Player995: Set own game mode to Survival Mode]
+[21:19:38] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[21:20:24] [Server thread/INFO]: [Player995: Given [Light Blue Wool] * 64 to Player995]
+[21:20:24] [Client thread/INFO]: [CHAT] Given [Light Blue Wool] * 64 to Player995
+[21:20:30] [Server thread/INFO]: [Player995: Given [Bone Sword] * 1 to Player995]
+[21:20:30] [Client thread/INFO]: [CHAT] Given [Bone Sword] * 1 to Player995
+[21:20:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 337 ms
+[21:20:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 253 ms
+[21:20:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 286 ms
+[21:20:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 255 ms
+[21:20:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 204 ms
+[21:20:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 213 ms
+[21:20:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 232 ms
+[21:20:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 202 ms
+[21:20:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 270 ms
+[21:20:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 199 ms
+[21:20:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 199 ms
+[21:20:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 199 ms
+[21:20:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 210 ms
+[21:21:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 597 ms
+[21:21:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 414 ms
+[21:21:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 317 ms
+[21:21:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 485 ms
+[21:21:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 485 ms
+[21:21:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 216 ms
+[21:21:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 313 ms
+[21:21:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 709 ms
+[21:21:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 232 ms
+[21:21:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 239 ms
+[21:21:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 322 ms
+[21:21:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 380 ms
+[21:21:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 308 ms
+[21:21:50] [Server thread/INFO]: Saving and pausing game...
+[21:21:50] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:21:51] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:21:51] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:21:51] [Server thread/INFO]: Stopping server
+[21:21:51] [Server thread/INFO]: Saving players
+[21:21:51] [Server thread/INFO]: Saving worlds
+[21:21:51] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:21:52] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:21:52] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:21:55] [Client thread/INFO]: Stopping!
