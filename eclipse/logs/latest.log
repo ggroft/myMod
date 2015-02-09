@@ -1,226 +1,32 @@
-[16:47:12] [main/INFO]: Setting user: Player945
-[16:47:16] [Client thread/INFO]: LWJGL Version: 2.9.1
-[16:47:20] [Client thread/ERROR]: Couldn't initialize twitch stream
-[16:47:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[16:47:39] [Sound Library Loader/INFO]: Sound engine started
-[16:47:43] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:47:43] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:47:45] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
-[16:47:46] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
-[16:47:46] [Client thread/INFO]: Created: 512x256 textures/items-atlas
-[16:47:47] [Sound Library Loader/INFO]: Sound engine started
-[16:48:03] [Client thread/INFO]: Deleting level New World
-[16:48:03] [Client thread/INFO]: Attempt 1...
-[16:48:15] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[16:48:15] [Server thread/INFO]: Generating keypair
-[16:48:15] [Server thread/INFO]: Converting map!
-[16:48:15] [Server thread/INFO]: Scanning folders...
-[16:48:15] [Server thread/INFO]: Total conversion count is 0
-[16:48:15] [Server thread/WARN]: Unable to find spawn biome
-[16:48:16] [Server thread/INFO]: Preparing start region for level 0
-[16:48:18] [Server thread/INFO]: Preparing spawn area: 3%
-[16:48:19] [Server thread/INFO]: Preparing spawn area: 8%
-[16:48:20] [Server thread/INFO]: Preparing spawn area: 15%
-[16:48:21] [Server thread/INFO]: Preparing spawn area: 23%
-[16:48:22] [Server thread/INFO]: Preparing spawn area: 32%
-[16:48:23] [Server thread/INFO]: Preparing spawn area: 42%
-[16:48:24] [Server thread/INFO]: Preparing spawn area: 51%
-[16:48:25] [Server thread/INFO]: Preparing spawn area: 60%
-[16:48:26] [Server thread/INFO]: Preparing spawn area: 68%
-[16:48:27] [Server thread/INFO]: Preparing spawn area: 74%
-[16:48:28] [Server thread/INFO]: Preparing spawn area: 83%
-[16:48:29] [Server thread/INFO]: Preparing spawn area: 92%
-[16:48:30] [Server thread/INFO]: Changing view distance to 12, from 10
-[16:48:31] [Server thread/INFO]: Player945[local:E:34eeef4d] logged in with entity id 152 at (-37.5, 72.0, -21.5)
-[16:48:32] [Server thread/INFO]: Player945 joined the game
-[16:48:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2861ms behind, skipping 57 tick(s)
-[16:48:45] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
-[16:48:47] [Client thread/INFO]: Warning: Clientside chunk ticking took 102 ms
-[16:49:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 279 ms
-[16:49:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 247 ms
-[16:49:03] [Client thread/INFO]: Warning: Clientside chunk ticking took 291 ms
-[16:49:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 242 ms
-[16:49:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 291 ms
-[16:49:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 237 ms
-[16:49:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 361 ms
-[16:49:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 292 ms
-[16:49:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 267 ms
-[16:49:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 382 ms
-[16:49:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 228 ms
-[16:49:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 193 ms
-[16:49:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 286 ms
-[16:49:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 315 ms
-[16:49:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 296 ms
-[16:49:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 342 ms
-[16:49:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 322 ms
-[16:49:22] [Client thread/INFO]: Warning: Clientside chunk ticking took 291 ms
-[16:49:23] [Client thread/INFO]: Warning: Clientside chunk ticking took 291 ms
-[16:49:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
-[16:49:34] [Client thread/INFO]: Warning: Clientside chunk ticking took 176 ms
-[16:49:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 112 ms
-[16:49:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 127 ms
-[16:49:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 129 ms
-[16:49:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 136 ms
-[16:49:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 159 ms
-[16:49:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 141 ms
-[16:49:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 148 ms
-[16:49:50] [Client thread/INFO]: Warning: Clientside chunk ticking took 141 ms
-[16:49:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 150 ms
-[16:49:51] [Client thread/INFO]: Warning: Clientside chunk ticking took 140 ms
-[16:49:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 103 ms
-[16:49:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 197 ms
-[16:49:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 194 ms
-[16:49:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 159 ms
-[16:49:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
-[16:49:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
-[16:49:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
-[16:49:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 466 ms
-[16:49:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 149 ms
-[16:49:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 260 ms
-[16:49:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 134 ms
-[16:49:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 137 ms
-[16:49:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 176 ms
-[16:49:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 182 ms
-[16:49:58] [Client thread/INFO]: Warning: Clientside chunk ticking took 238 ms
-[16:49:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 208 ms
-[16:49:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 176 ms
-[16:49:59] [Client thread/INFO]: Warning: Clientside chunk ticking took 144 ms
-[16:50:00] [Client thread/INFO]: Warning: Clientside chunk ticking took 145 ms
-[16:50:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 165 ms
-[16:50:01] [Client thread/INFO]: Warning: Clientside chunk ticking took 146 ms
-[16:50:02] [Client thread/INFO]: Warning: Clientside chunk ticking took 157 ms
-[16:50:11] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:50:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 108 ms
-[16:50:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
-[16:50:14] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
-[16:50:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 170 ms
-[16:50:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 124 ms
-[16:50:15] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 138 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:50:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 145 ms
-[16:50:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 197 ms
-[16:50:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 130 ms
-[16:50:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 131 ms
-[16:50:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 170 ms
-[16:50:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[16:50:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 174 ms
-[16:50:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 206 ms
-[16:50:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 250 ms
-[16:50:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 222 ms
-[16:50:30] [Client thread/INFO]: Warning: Clientside chunk ticking took 248 ms
-[16:50:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 277 ms
-[16:50:31] [Client thread/INFO]: Warning: Clientside chunk ticking took 304 ms
-[16:50:32] [Client thread/INFO]: Warning: Clientside chunk ticking took 212 ms
-[16:50:33] [Client thread/INFO]: Warning: Clientside chunk ticking took 239 ms
-[16:50:33] [Client thread/INFO]: Warning: Clientside chunk ticking took 239 ms
-[16:50:33] [Client thread/INFO]: Warning: Clientside chunk ticking took 246 ms
-[16:50:33] [Client thread/INFO]: Warning: Clientside chunk ticking took 245 ms
-[16:50:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 157 ms
-[16:50:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 159 ms
-[16:50:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 161 ms
-[16:50:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 165 ms
-[16:50:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 162 ms
-[16:50:45] [Client thread/INFO]: Warning: Clientside chunk ticking took 158 ms
-[16:50:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 160 ms
-[16:50:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[16:50:46] [Client thread/INFO]: Warning: Clientside chunk ticking took 205 ms
-[16:50:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 173 ms
-[16:50:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 177 ms
-[16:50:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 168 ms
-[16:50:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 166 ms
-[16:51:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 104 ms
-[16:51:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 101 ms
-[16:51:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[16:51:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
-[16:51:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 120 ms
-[16:51:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 113 ms
-[16:51:16] [Client thread/INFO]: Warning: Clientside chunk ticking took 119 ms
-[16:51:17] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[16:51:18] [Client thread/INFO]: Warning: Clientside chunk ticking took 126 ms
-[16:51:18] [Client thread/INFO]: Warning: Clientside chunk ticking took 158 ms
-[16:51:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 160 ms
-[16:51:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[16:51:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 128 ms
-[16:51:19] [Client thread/INFO]: Warning: Clientside chunk ticking took 154 ms
-[16:51:20] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:51:20] [Client thread/INFO]: Warning: Clientside chunk ticking took 125 ms
-[16:51:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 135 ms
-[16:51:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 128 ms
-[16:51:21] [Client thread/INFO]: Warning: Clientside chunk ticking took 139 ms
-[16:51:23] [Client thread/INFO]: Warning: Clientside chunk ticking took 153 ms
-[16:51:24] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[16:51:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 144 ms
-[16:51:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 175 ms
-[16:51:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[16:51:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 154 ms
-[16:51:26] [Client thread/INFO]: Warning: Clientside chunk ticking took 109 ms
-[16:51:28] [Client thread/INFO]: Warning: Clientside chunk ticking took 151 ms
-[16:51:28] [Client thread/INFO]: Warning: Clientside chunk ticking took 150 ms
-[16:51:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 110 ms
-[16:51:29] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:51:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 172 ms
-[16:51:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 136 ms
-[16:51:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
-[16:51:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[16:51:37] [Client thread/INFO]: Warning: Clientside chunk ticking took 180 ms
-[16:51:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 160 ms
-[16:51:38] [Client thread/INFO]: Warning: Clientside chunk ticking took 127 ms
-[16:51:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 166 ms
-[16:51:41] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[16:51:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 189 ms
-[16:51:42] [Client thread/INFO]: Warning: Clientside chunk ticking took 126 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 373 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 264 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 156 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 153 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 121 ms
-[16:51:43] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[16:51:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 171 ms
-[16:51:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 155 ms
-[16:51:44] [Client thread/INFO]: Warning: Clientside chunk ticking took 201 ms
-[16:51:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
-[16:51:52] [Client thread/INFO]: Warning: Clientside chunk ticking took 110 ms
-[16:51:53] [Client thread/INFO]: Warning: Clientside chunk ticking took 112 ms
-[16:51:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 118 ms
-[16:51:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 111 ms
-[16:51:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 116 ms
-[16:51:54] [Client thread/INFO]: Warning: Clientside chunk ticking took 115 ms
-[16:51:55] [Client thread/INFO]: Warning: Clientside chunk ticking took 123 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 117 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 133 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 141 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 119 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 136 ms
-[16:51:56] [Client thread/INFO]: Warning: Clientside chunk ticking took 124 ms
-[16:51:57] [Client thread/INFO]: Warning: Clientside chunk ticking took 129 ms
-[16:52:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 122 ms
-[16:52:04] [Client thread/INFO]: Warning: Clientside chunk ticking took 119 ms
-[16:52:05] [Client thread/INFO]: Warning: Clientside chunk ticking took 167 ms
-[16:52:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 167 ms
-[16:52:06] [Client thread/INFO]: Warning: Clientside chunk ticking took 224 ms
-[16:52:07] [Client thread/INFO]: Warning: Clientside chunk ticking took 135 ms
-[16:52:08] [Client thread/INFO]: Warning: Clientside chunk ticking took 114 ms
-[16:52:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 186 ms
-[16:52:09] [Client thread/INFO]: Warning: Clientside chunk ticking took 243 ms
-[16:52:12] [Client thread/INFO]: Warning: Clientside chunk ticking took 106 ms
-[16:52:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 110 ms
-[16:52:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 104 ms
-[16:52:13] [Client thread/INFO]: Warning: Clientside chunk ticking took 127 ms
-[16:53:07] [Client thread/INFO]: Warning: Clientside chunk ticking took 209 ms
-[16:53:07] [Client thread/INFO]: Warning: Clientside chunk ticking took 208 ms
-[16:53:07] [Server thread/INFO]: Saving and pausing game...
-[16:53:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:53:07] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:53:07] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:53:09] [Server thread/INFO]: Stopping server
-[16:53:09] [Server thread/INFO]: Saving players
-[16:53:09] [Server thread/INFO]: Saving worlds
-[16:53:09] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[16:53:09] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[16:53:09] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[16:53:12] [Client thread/INFO]: Stopping!
+[21:44:01] [main/INFO]: Setting user: Player215
+[21:44:04] [Client thread/INFO]: LWJGL Version: 2.9.1
+[21:44:06] [Client thread/ERROR]: Couldn't initialize twitch stream
+[21:44:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
+[21:44:28] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:44:28] [Sound Library Loader/INFO]: Sound engine started
+[21:44:28] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:44:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Not Enough Items, FMLFileResourcePack:My Test Mod, FMLFileResourcePack:Ender IO
+[21:44:32] [Client thread/INFO]: Created: 512x512 textures/blocks-atlas
+[21:44:32] [Client thread/INFO]: Created: 512x256 textures/items-atlas
+[21:44:33] [Sound Library Loader/INFO]: Sound engine started
+[21:44:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[21:44:50] [Server thread/INFO]: Generating keypair
+[21:44:51] [Server thread/INFO]: Preparing start region for level 0
+[21:44:52] [Server thread/INFO]: Preparing spawn area: 54%
+[21:44:53] [Server thread/INFO]: Changing view distance to 12, from 10
+[21:44:54] [Server thread/INFO]: Player215[local:E:212d771d] logged in with entity id 134 at (342.3061377379772, 4.0, 12.154432045898645)
+[21:44:54] [Server thread/INFO]: Player215 joined the game
+[21:45:05] [Client thread/INFO]: [CHAT] Version 1.0.3.74 of NotEnoughItems is available
+[21:48:21] [Server thread/INFO]: Player215 has just earned the achievement [Taking Inventory]
+[21:48:21] [Client thread/INFO]: [CHAT] Player215 has just earned the achievement [Taking Inventory]
+[21:48:43] [Server thread/INFO]: Saving and pausing game...
+[21:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:48:43] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[21:48:44] [Client thread/INFO]: Stopping!
+[21:48:44] [Server thread/INFO]: Stopping server
+[21:48:44] [Server thread/INFO]: Saving players
+[21:48:44] [Server thread/INFO]: Saving worlds
+[21:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[21:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[21:48:44] [Server thread/INFO]: Saving chunks for level 'New World'/The End

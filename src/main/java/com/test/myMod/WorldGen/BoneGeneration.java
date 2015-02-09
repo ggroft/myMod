@@ -1,6 +1,6 @@
 package com.test.myMod.WorldGen;
 
-import com.test.myMod.init.ModeBlocks;
+import com.test.myMod.init.ModBlocks;
 import cpw.mods.fml.common.IWorldGenerator;
 import net.minecraft.block.Block;
 import net.minecraft.init.Blocks;
@@ -37,7 +37,7 @@ public class BoneGeneration implements IWorldGenerator
 
     public void generateOverworld(World world, Random rand, int x, int z)
     {
-        generateOre(ModeBlocks.BlockBone, world, rand, x, z, 2, 10, 5, 0, 100, Blocks.grass);
+        generateOre(ModBlocks.BlockBone, world, rand, x, z, 2, 10, 5, 0, 100, Blocks.grass);
     }
 
     public void generateNether(World world, Random rand, int x, int z)

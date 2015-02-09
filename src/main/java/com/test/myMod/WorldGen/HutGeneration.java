@@ -29,7 +29,7 @@ public class HutGeneration {
         if(world.getBiomeGenForCoords(i, k).biomeName.equals(BiomeGenBase.plains.biomeName)) {
 
 
-            if((random.nextInt(1000000)+1)<=100000){
+            if((random.nextInt(1000000)+1)<=100){
                 boolean place = true;
 
                 for (int y = 0; y<10; y++)

@@ -20,9 +20,9 @@ public class Recipes
                 'b', new ItemStack(Items.dye,1,15),'s', new ItemStack(Items.stick));
 
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.dye,9,15),
-                new ItemStack(ModeBlocks.BlockBone)));
+                new ItemStack(ModBlocks.BlockBone)));
 
-        GameRegistry.addRecipe(new ItemStack(ModeBlocks.BlockBone),
+        GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockBone),
                 "bbb", "bbb", "bbb",
                 'b', new ItemStack(Items.dye,1,15));
 

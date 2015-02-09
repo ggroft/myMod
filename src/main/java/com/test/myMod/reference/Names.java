@@ -13,6 +13,7 @@ public class Names {
     public static final class Blocks
     {
         public static final String BONE_BLOCK = "BlockBone";
+        public static final String GEM_CUTTER = "GemCutter";
     }
 
 

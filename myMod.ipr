@@ -191,9 +191,9 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="witchery">
+    <library name="forestry">
       <CLASSES>
-        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/witchery-1.7.10-0.22.0.jar!/com/emoniph/witchery" />
+        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/forestry_1.7.10-3.3.0.6.zip!/forestry" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
