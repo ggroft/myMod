@@ -11,7 +11,7 @@ import net.minecraft.world.gen.feature.WorldGenMinable;
 import java.util.Random;
 
 
-public class BoneGeneration implements IWorldGenerator
+public class AquamarineGen implements IWorldGenerator
 {
 
     @Override
@@ -37,7 +37,7 @@ public class BoneGeneration implements IWorldGenerator
 
     public void generateOverworld(World world, Random rand, int x, int z)
     {
-        generateOre(ModBlocks.BlockBone, world, rand, x, z, 2, 10, 5, 0, 100, Blocks.grass);
+        generateOre(ModBlocks.Aquamarine_Ore, world, rand, x, z, 2, 10, 5, 0, 100, Blocks.stone);
     }
 
     public void generateNether(World world, Random rand, int x, int z)

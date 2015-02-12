@@ -15,29 +15,6 @@ public class Recipes
     {
 
 
-        GameRegistry.addRecipe(new ItemStack(ModItems.BoneSword),
-                " b ", " b ", " s ",
-                'b', new ItemStack(Items.dye,1,15),'s', new ItemStack(Items.stick));
-
-        GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.dye,9,15),
-                new ItemStack(ModBlocks.BlockBone)));
-
-        GameRegistry.addRecipe(new ItemStack(ModBlocks.BlockBone),
-                "bbb", "bbb", "bbb",
-                'b', new ItemStack(Items.dye,1,15));
-
-        String boneb_recipe =
-                "<recipeGroup name=\"BlockBone\">" +
-                        "<recipe name=\"BlockBone\" energyCost=\"100\">" +
-                        "<input>" +
-                        "<itemStack modID=\"" + Reference.MOD_ID + "\" itemName=\""+ Names.Blocks.BONE_BLOCK +"\"/>" +
-                        "</input>" +
-                        "<output>" +
-                        "<itemStack modID=\"minecraft\" itemName=\"dye\" itemMeta=\"15\" number=\"6\" />" +
-                        "</output>" +
-                        "</recipe>" +
-                        "</recipeGroup>";
-        FMLInterModComms.sendMessage("EnderIO", "recipe:sagmill", boneb_recipe);
 
 
     }

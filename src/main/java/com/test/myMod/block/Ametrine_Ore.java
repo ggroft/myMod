@@ -2,42 +2,39 @@ package com.test.myMod.block;
 
 //http://bedrockminer.jimdo.com/modding-tutorials/basic-modding/language-file/
 
-import java.util.Random;
-
 import com.test.myMod.creativetab.CreativeTabmyMod;
 import com.test.myMod.reference.Names;
 import com.test.myMod.reference.Reference;
-import com.test.myMod.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
 
-public class BlockBone extends Block {
+import java.util.Random;
+
+public class Ametrine_Ore extends Block {
     private Item drop;
     private int meta;
     private int least_quantity;
     private int most_quantity;
 
 
-    public BlockBone(String unlocalizedName, Material mat, Item drop, int meta, int least_quantity, int most_quantity) {
+    public Ametrine_Ore(String unlocalizedName, Material mat, Item drop, int meta, int least_quantity, int most_quantity) {
         super(mat);
         this.drop = drop;
         this.meta = meta;
         this.least_quantity = least_quantity;
         this.most_quantity = most_quantity;
         this.blockHardness = 20;
-        this.setBlockName(Names.Blocks.BONE_BLOCK);
-       // this.setBlockTextureName(Reference.MOD_ID + ":" + unlocalizedName);
+        this.setBlockName(Names.Blocks.AMETRINE_ORE);
         this.setCreativeTab(CreativeTabmyMod.myMod_TAB);
     }
-    public BlockBone(String unlocalizedName, Material mat, Item drop, int least_quantity, int most_quantity) {
+    public Ametrine_Ore(String unlocalizedName, Material mat, Item drop, int least_quantity, int most_quantity) {
         this(unlocalizedName, mat, drop, 0, least_quantity, most_quantity);
     }
-    public BlockBone(String unlocalizedName, Material mat, Item drop) {
+    public Ametrine_Ore(String unlocalizedName, Material mat, Item drop) {
         this(unlocalizedName, mat, drop, 1, 1);
     }
 

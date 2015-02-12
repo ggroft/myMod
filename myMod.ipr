@@ -191,12 +191,14 @@
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
   <component name="libraryTable">
-    <library name="forestry">
+    <library name="forestry_1.7.10-3.4.0.7-api">
       <CLASSES>
-        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/forestry_1.7.10-3.3.0.6.zip!/forestry" />
+        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/forestry_1.7.10-3.4.0.7-api.jar!/" />
       </CLASSES>
       <JAVADOC />
-      <SOURCES />
+      <SOURCES>
+        <root url="jar://D:/gamez/minecraft_client/modding/kocsomagolt modok/forestry_1.7.10-3.4.0.7-api.jar!/" />
+      </SOURCES>
     </library>
   </component>
   <component name="masterDetails">

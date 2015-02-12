@@ -10,14 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 
-
-public class ItemBone extends Item
+public class Raw_Bloodstone extends Item
 {
-    public ItemBone()
+    public Raw_Bloodstone()
     {
         super();
         this.setCreativeTab(CreativeTabmyMod.myMod_TAB);
-        this.setUnlocalizedName(Names.Items.BONE_FRAGMENT);
+        this.setUnlocalizedName(Names.Items.RAW_BLOODSTONE);
         this.maxStackSize=64;
 
 }

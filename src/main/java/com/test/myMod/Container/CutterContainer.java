@@ -11,6 +11,7 @@ import com.test.myMod.Entity.GemCutterEntity;
 public class CutterContainer extends Container {
 
 
+
 protected GemCutterEntity tileEntity;
 
     public CutterContainer(InventoryPlayer inventoryPlayer, GemCutterEntity te) {
@@ -28,6 +29,14 @@ protected GemCutterEntity tileEntity;
             addSlotToContainer(new Slot(tileEntity, j, 120 + j * 18, -6));
 
         }
+        for(int i = 0; i < 2; i++) {
+            for (int j = 0; j < 9; j++) {
+                addSlotToContainer(new Slot(tileEntity, 9+j+i*9, 8 + j * 18, 63 + i * 18));
+            }
+        }
+
+
+
 
         bindPlayerInventory(inventoryPlayer);
     }

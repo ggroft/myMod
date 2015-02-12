@@ -13,7 +13,7 @@ public class CreativeTabmyMod
         @Override
         public Item getTabIconItem()
         {
-            return ModItems.BoneSword;
+            return ModItems.RawAmethyst;
         }
 
 

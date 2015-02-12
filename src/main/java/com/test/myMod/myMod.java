@@ -36,9 +36,11 @@ public class myMod
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
-        ModItems.init();
         ModBlocks.init();
         OreGen.init();
+        ModItems.init();
+
+
         LogHelper.info("Pre-initialization complete!");
     }
 
