@@ -30,19 +30,19 @@ public class ModBlocks
     public static void init()
 
     {
-        GameRegistry.registerBlock(Amethyst_Ore = new Amethyst_Ore(Names.Blocks.AMETHYST_ORE, Material.rock, ModItems.RawAmethyst, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AMETHYST_ORE);
-        GameRegistry.registerBlock(Ametrine_Ore = new Ametrine_Ore(Names.Blocks.AMETRINE_ORE, Material.rock, ModItems.RawAmetrine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AMETRINE_ORE);
-        GameRegistry.registerBlock(Aquamarine_Ore = new Aquamarine_Ore(Names.Blocks.AQUAMARINE_ORE, Material.rock, ModItems.RawAquamarine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AQUAMARINE_ORE);
-        GameRegistry.registerBlock(Bloodstone_Ore = new Bloodstone_Ore(Names.Blocks.BLOODSTONE_ORE, Material.rock, ModItems.RawBloodstone, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.BLOODSTONE_ORE);
-        GameRegistry.registerBlock(Chrysocolla_Ore = new Chrysocolla_Ore(Names.Blocks.CHRYSOCOLLA_ORE, Material.rock, ModItems.RawChrysocolla, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.CHRYSOCOLLA_ORE);
-        GameRegistry.registerBlock(Citrine_Ore = new Citrine_Ore(Names.Blocks.CITRINE_ORE, Material.rock, ModItems.RawCitrine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.CITRINE_ORE);
-        GameRegistry.registerBlock(Malachite_Ore = new Malachite_Ore(Names.Blocks.MALACHITE_ORE, Material.rock, ModItems.RawMalachite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.MALACHITE_ORE);
-        GameRegistry.registerBlock(Moonstone_Ore = new Moonstone_Ore(Names.Blocks.MOONSTONE_ORE, Material.rock, ModItems.RawMoonstone, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.MOONSTONE_ORE);
-        GameRegistry.registerBlock(Opal_Ore = new Opal_Ore(Names.Blocks.OPAL_ORE, Material.rock, ModItems.RawOpal, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.OPAL_ORE);
-        GameRegistry.registerBlock(Rhodonite_Ore = new Rhodonite_Ore(Names.Blocks.RHODONITE_ORE, Material.rock, ModItems.RawRhodonite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.RHODONITE_ORE);
-        GameRegistry.registerBlock(Rose_Quartz_Ore = new Rose_Quartz_Ore(Names.Blocks.ROSE_QUARTZ_ORE, Material.rock, ModItems.RawRose_Quartz, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.ROSE_QUARTZ_ORE);
-        GameRegistry.registerBlock(Seraphinite_Ore = new Seraphinite_Ore(Names.Blocks.SERAPHINITE_ORE, Material.rock, ModItems.RawSeraphinite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.SERAPHINITE_ORE);
-        GameRegistry.registerBlock(Tanzanite_Ore = new Tanzanite_Ore(Names.Blocks.TANZANITE_ORE, Material.rock, ModItems.RawTanzanite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.TANZANITE_ORE);
+        GameRegistry.registerBlock(Amethyst_Ore = new Amethyst_Ore(Names.Blocks.AMETHYST_ORE, Material.rock, ModItems.Raw_Amethyst, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AMETHYST_ORE);
+        GameRegistry.registerBlock(Ametrine_Ore = new Ametrine_Ore(Names.Blocks.AMETRINE_ORE, Material.rock, ModItems.Raw_Ametrine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AMETRINE_ORE);
+        GameRegistry.registerBlock(Aquamarine_Ore = new Aquamarine_Ore(Names.Blocks.AQUAMARINE_ORE, Material.rock, ModItems.Raw_Aquamarine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.AQUAMARINE_ORE);
+        GameRegistry.registerBlock(Bloodstone_Ore = new Bloodstone_Ore(Names.Blocks.BLOODSTONE_ORE, Material.rock, ModItems.Raw_Bloodstone, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.BLOODSTONE_ORE);
+        GameRegistry.registerBlock(Chrysocolla_Ore = new Chrysocolla_Ore(Names.Blocks.CHRYSOCOLLA_ORE, Material.rock, ModItems.Raw_Chrysocolla, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.CHRYSOCOLLA_ORE);
+        GameRegistry.registerBlock(Citrine_Ore = new Citrine_Ore(Names.Blocks.CITRINE_ORE, Material.rock, ModItems.Raw_Citrine, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.CITRINE_ORE);
+        GameRegistry.registerBlock(Malachite_Ore = new Malachite_Ore(Names.Blocks.MALACHITE_ORE, Material.rock, ModItems.Raw_Malachite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.MALACHITE_ORE);
+        GameRegistry.registerBlock(Moonstone_Ore = new Moonstone_Ore(Names.Blocks.MOONSTONE_ORE, Material.rock, ModItems.Raw_Moonstone, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.MOONSTONE_ORE);
+        GameRegistry.registerBlock(Opal_Ore = new Opal_Ore(Names.Blocks.OPAL_ORE, Material.rock, ModItems.Raw_Opal, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.OPAL_ORE);
+        GameRegistry.registerBlock(Rhodonite_Ore = new Rhodonite_Ore(Names.Blocks.RHODONITE_ORE, Material.rock, ModItems.Raw_Rhodonite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.RHODONITE_ORE);
+        GameRegistry.registerBlock(Rose_Quartz_Ore = new Rose_Quartz_Ore(Names.Blocks.ROSE_QUARTZ_ORE, Material.rock, ModItems.Raw_Rose_Quartz, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.ROSE_QUARTZ_ORE);
+        GameRegistry.registerBlock(Seraphinite_Ore = new Seraphinite_Ore(Names.Blocks.SERAPHINITE_ORE, Material.rock, ModItems.Raw_Seraphinite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.SERAPHINITE_ORE);
+        GameRegistry.registerBlock(Tanzanite_Ore = new Tanzanite_Ore(Names.Blocks.TANZANITE_ORE, Material.rock, ModItems.Raw_Tanzanite, 2, 4).setHardness(10.0f).setResistance(20.0f), Names.Blocks.TANZANITE_ORE);
         GameRegistry.registerBlock(GemCutter = new GemCutterBlock(Names.Blocks.GEM_CUTTER, Material.rock, ModBlocks.GemCutter,1).setHardness(10.0f).setResistance(20.0f), Names.Blocks.GEM_CUTTER);
        
 
